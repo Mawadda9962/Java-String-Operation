@@ -9,7 +9,7 @@ public class StringCompareDemo {
 
         System.out.println(name.substring(4));
 
-        String name2 = "Jenan";
+        String name2 = "Mawadda";
 
         System.out.println(name.equals(name2));
 
