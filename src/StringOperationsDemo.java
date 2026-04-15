@@ -12,6 +12,10 @@ public class StringOperationsDemo {
         System.out.println("\n---Uppercase--- " + name.toUpperCase());
         System.out.println("\n---Lowercase--- " + name.toLowerCase());
 
+        String companyName = "CodeLine";
+
+        System.out.println(name.concat(companyName));
+
 
     }
 
