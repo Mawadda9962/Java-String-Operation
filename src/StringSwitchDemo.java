@@ -4,7 +4,7 @@ public class StringSwitchDemo {
         String Department = "Electronics";
         System.out.println(Department);
 
-        switch(Department){
+        switch(Department) {
 
             case "Electronics":
                 System.out.println("Electronics Department selected");
@@ -19,6 +19,7 @@ public class StringSwitchDemo {
                 break;
 
             default:
+                System.out.println("Unknown Department");
 
 
         }
