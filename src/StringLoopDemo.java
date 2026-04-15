@@ -27,6 +27,10 @@ public class StringLoopDemo {
 
         }
 
+        System.out.println("The total of Vowels: " + vowels);
+        System.out.println("The total of consonants: " + consonants);
+        System.out.println("The total of Digits: " + digits);
+
 
 
     }
