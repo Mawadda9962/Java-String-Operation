@@ -22,9 +22,14 @@ public class StringDoWhileDemo {
                 spaces++;
             }
 
+            i++;
 
 
-        }
+
+        }while (i < text.length());
+
+        System.out.println("Total number of lowercase: " + lowercase);
+        System.out.println("Total number of spaces: " + spaces );
 
 
     }
