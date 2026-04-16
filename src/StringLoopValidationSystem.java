@@ -9,6 +9,11 @@ public class StringLoopValidationSystem {
 
         System.out.println(text);
         System.out.println(text.length());
+
+        for(int i = 0; i <text.length(); i++){
+            char a = text.charAt(i);
+            System.out.println(a);
+        }
     }
 
 }
