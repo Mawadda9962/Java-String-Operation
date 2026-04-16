@@ -30,7 +30,14 @@ public class StringValidationSystem {
 
         System.out.println(comparison.equalsIgnoreCase(text));
 
-        System.out.println();
+        System.out.println(text.substring(3));
+
+        if (text >= 5){
+            System.out.println("The length if String is good");
+        }
+        else{
+            System.out.println("The length of String is too Short");
+        }
 
 
 
