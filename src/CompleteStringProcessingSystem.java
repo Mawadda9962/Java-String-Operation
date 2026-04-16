@@ -22,5 +22,35 @@ public class CompleteStringProcessingSystem {
         String comparisonWord = input.nextLine();
         System.out.println(text.equalsIgnoreCase(comparisonWord));
 
+        if(text.length() > 0){
+            System.out.println(text.charAt(0));
+        }
+        else{
+            System.out.println("The text is empty");
+        }
+
+        int vowCount = 0;
+        for(int i = 0; i < text.length(); i++){
+            char a = text.charAt(i);
+            System.out.println(a);
+
+
+            if (a == 'a' || a == 'e' || a == 'i' ||
+                    a == 'o' || a == 'u' ||
+                    a == 'A' || a == 'E' || a == 'I' ||
+                    a == 'O' || a == 'U') {
+                vowCount++;
+            }
+        }
+
+        System.out.println("Total vowels: " + vowCount);
+
+        if (text.length() >= 10){
+            System.out.println("The text is good");
+        }
+        else{
+
+        }
+
     }
 }
