@@ -49,6 +49,7 @@ public class CompleteStringProcessingSystem {
             System.out.println("The text is good");
         }
         else{
+            System.out.println("The text is to short");
 
         }
 
