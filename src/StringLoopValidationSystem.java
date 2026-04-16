@@ -25,6 +25,18 @@ public class StringLoopValidationSystem {
         }
 
         System.out.println(vowCount);
+
+        System.out.println("Enter a word to search: ");
+        String word = input.nextLine();
+
+        System.out.println(text.contains(word));
+
+        if (text.length() >= 10){
+            System.out.println("The text is good");
+        }
+        else{
+            System.out.println("The text is too short");
+        }
         }
     }
 
