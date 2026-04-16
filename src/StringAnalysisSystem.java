@@ -22,9 +22,22 @@ public class StringAnalysisSystem {
 
         System.out.println(userName.equalsIgnoreCase(Compare));
 
+        if(userName.length() > 0 ){
+            System.out.println(userName.charAt(0));
+
+        }
+        else{
+            System.out.println("There is no username entered");
+        }
 
 
+        if(userName.length() > 10 ){
+            System.out.println("The entered username is good");
 
+        }
+        else{
+            System.out.println("The entered username is good");
+        }
 
 
     }
