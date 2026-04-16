@@ -17,6 +17,14 @@ public class StringCompareValidateSystem {
 
         System.out.println(text.equals(compWord));
 
+        System.out.println("Enter prefix value: ");
+        String prefixValue = input.nextLine();
+        System.out.println(prefixValue);
+
+        System.out.println(text.startsWith(prefixValue));
+
+
+
 
 
 
