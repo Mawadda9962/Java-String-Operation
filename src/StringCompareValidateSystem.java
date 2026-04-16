@@ -23,6 +23,21 @@ public class StringCompareValidateSystem {
 
         System.out.println(text.startsWith(prefixValue));
 
+        System.out.println("Enter suffix value: ");
+        String suffixValue   = input.nextLine();
+        System.out.println(suffixValue);
+
+        System.out.println(text.endsWith(suffixValue));
+
+        if(text.length() >= 8){
+            System.out.println("The length is good");
+        }
+        else{
+            System.out.println("The text is too short");
+        }
+
+
+
 
 
 
